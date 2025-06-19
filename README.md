@@ -677,5 +677,6 @@
    ```bash
    oc edit schedulers.config.openshift.io cluster
    ```
-#   O p e n s h i f t - C l u s t e r  
+#   O p e n s h i f t - C l u s t e r 
+ 
  
