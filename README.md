@@ -663,7 +663,7 @@
 1. You can collect logs from all cluster hosts by running the following command from the 'ocp-svc' host:
 
    ```bash
-   ./openshift-install gather bootstrap --dir ocp-install --bootstrap=192.169.1.7 --master=192.168.22.201 --master=192.168.22.202 --master=192.168.22.203
+   ./openshift-install gather bootstrap --dir ocp-install --bootstrap=192.169.1.7 --master=192.168.1.3 --master=192.168.1.4 --master=192.168.1.5
    ```
 
 1. Modify the role of the Control Plane Nodes
