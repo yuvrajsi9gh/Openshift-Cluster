@@ -9,15 +9,15 @@ $TTL    604800
 
   IN      NS      ocp-svc.ocp.lan.
 
-1      IN    PTR    ocp-svc.ocp.lan.
-1      IN    PTR    api.lab.ocp.lan.
-1      IN    PTR    api-int.lab.ocp.lan.
+2      IN    PTR    ocp-svc.ocp.lan.
+2      IN    PTR    api.lab.ocp.lan.
+2      IN    PTR    api-int.lab.ocp.lan.
 ;
-200    IN    PTR    ocp-bootstrap.lab.ocp.lan.
+7    IN    PTR    ocp-bootstrap.lab.ocp.lan.
 ;
-201    IN    PTR    ocp-cp-1.lab.ocp.lan.
-202    IN    PTR    ocp-cp-2.lab.ocp.lan.
-203    IN    PTR    ocp-cp-3.lab.ocp.lan.
+3    IN    PTR    ocp-cp-1.lab.ocp.lan.
+4    IN    PTR    ocp-cp-2.lab.ocp.lan.
+5    IN    PTR    ocp-cp-3.lab.ocp.lan.
 ;
-211    IN    PTR    ocp-w-1.lab.ocp.lan.
-212    IN    PTR    ocp-w-2.lab.ocp.lan.
+6    IN    PTR    ocp-w-1.lab.ocp.lan.
+7    IN    PTR    ocp-w-2.lab.ocp.lan.
